@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+/* 건강 수첩 */
+.health-note {}
+.health-note .item.t2 {display: block;}
+.health-note .item:first-of-type {border-top: 0; padding-top: 37px}
+.health-note .item {display: flex; justify-content: space-between; padding: 50px 0 50px; border-top: 1px solid #ecedef }
+.health-note .item .item-right {width: calc(100% - 120px)}
+.health-note .item .tit {font-size: 16rem; color: #000; font-weight: 700;}
+.health-note .item .txt {font-size: 14rem; color: #666; font-weight: normal; margin-top: 5px;  line-height: 1.29;}
+.health-note .item .info-txt {padding-top: 0;}
+
+.health-note .item:last-of-type {padding: 0; display: block;}
+.health-note .item:last-of-type .tit {display: block; color:#666; font-size: 14rem; margin: 16px 0 10px}
+.health-note .item:last-of-type .info-txt {padding: 0; }
+
+
+
+
+.health-note .g-box {padding: 20px 20px 30px; background-color: #f7f7f7;}
+.health-note .g-box .txt {font-size: 13rem; margin-bottom: 20px;}
+.health-note .g-box .movie {height: 666px; height: 375px; overflow: hidden; text-align: center; background: #f7f7f7;}
+
+.health-note .g-box .txt + .tit {margin-top: 40px;}
+.health-note .g-box .movie + .tit {margin-top: 40px;}
+
+.health-note .g-box.t2 {border-radius: 6px; width: 100%; padding: 20px; margin-bottom: 30px; display: flex; justify-content: space-between; align-items: center; height: 100px}
+.health-note .g-box.t2 .txt {text-align: center; font-size: 15rem; color: #333; margin-bottom: 0;}
+.health-note .g-box.t2 .txt strong {font-weight: 700;}
+.health-note .g-box.t2 .txt span {color:#669aff;}
+
+.health-note .g-box.t2.newDn {margin-top: 20px}
+
+.health-note .g-box.newDnPc {padding: 40px 51px 44px; border-radius: 6px;}
+
+
+.txt + .table-type01 {margin-top: 30px;}
+
+
+
+.health-note .btn.add:before {display:block; content:''; width: 14px; height: 14px; margin-top:-1px; margin-right: 4px;  background:50% 50% no-repeat; background-size: 13px 13px;background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14'%3E%3Cpath d='M2 7h10M7 2v10' stroke='%23669AFF' stroke-width='1.5' fill='none' fill-rule='evenodd'/%3E%3C/svg%3E"); }	/* APETQA-6150 210709 lju02 */
+.health-note .btn-area {text-align: center;}
+.health-note .btn.add {font-size: 14rem;height:32px;padding: 6px 13px 6px 11px; border-radius: 30px; line-height: 1.43;}	/* APETQA-6150 210709 lju02 */
+.health-note .btn.add + .btn {margin-left: 10px;}
+
+.table-type01 .t-info {font-size: 12rem; color:#9a9a9a; text-align: right; font-weight: normal; margin:12px 0 3px; }
+.table-type01 .b-info {font-size: 12rem; color:#669aff; text-align: right; font-weight: normal; margin-top: 10px;}
+.table-type01 table {width: 100%;}
+.table-type01 table thead th {font-size: 12rem; text-align: center; border-bottom: 1px solid #ecedef;padding: 10px 4px 10px; background-color: #f4f6fa;}
+.table-type01 table tbody td {font-size: 12rem; font-weight: normal; text-align: center; border-bottom: 1px solid #ecedef; padding: 10px 4px 10px}
+.table-type01 table tbody td .f-gray {color: #9a9a9a;}
+
+.table-type01.t2 table {width: 100%;}
+.table-type01.t2 table thead th {font-size: 12rem; text-align: center; border-bottom: 1px solid #ecedef;padding: 10px 4px 10px; background-color: #fff;}
+.table-type01.t2 table tbody td {font-size: 11rem; font-weight: normal; text-align: center; border-bottom: 1px solid #ecedef; letter-spacing: -0.2px; padding: 10px 4px 10px}
+.table-type01.t2 table tbody td .f-gray {color: #9a9a9a;}
+.table-type01.t2 table tbody td .f-blue {color: #669aff;}
+.table-type01.t2 table tbody td .f-red {color: #ff7777;}
+
+
+.table-type01.t2 table tbody td .box {position: relative; text-align: center;}
+.table-type01.t2 table tbody td .box .t {padding-right: 22px; white-space: normal; width: auto; word-break: break-all; text-indent: 22px;} /* APETQA-6808 2021.09.06 수정함 */
+.table-type01.t2 table tbody td a {display: block;}
+.table-type01.t2 table tbody td .r-btn {width: 14px; height: 14px; position: absolute ; right: 0; top: calc(50% - 7px);}
+.table-type01.t2 table tbody td .box .icon {width: 22px; height: 22px;  background: url(../../_images/my/icon-my-img.png) no-repeat; background-size: 22px 22px; position: absolute; top: calc(50% - 11px); right:0; }
+.table-type01.t2 table tbody td .box .icon2 {width: 14px; height: 14px;  background: url(../../_images/my/ico-my-arr.png) no-repeat; background-size: 14px 14px; position: absolute; top: calc(50% - 7px);; right:0; }
+
+
+
+
+
+
+.notice-list {display: none;;}
+
+
+
+

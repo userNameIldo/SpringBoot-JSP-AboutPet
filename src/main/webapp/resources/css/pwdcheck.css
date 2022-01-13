@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, main, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+.container {
+    padding: 0px 20px 0px 20px;
+    min-width: 1200px;
+    min-height: 478px;
+}
+
+.login.srch .container > .inr .pc-tit h2 {
+    line-height: 30rem;
+}
+.pc-tit h2 {
+    font-size: 2rem;
+    font-weight: 700;
+     text-align: center;
+      margin: 42px 0;
+}
+
+.login.srch .result .sub {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    margin-top: 10px;
+    line-height: 1.5rem;
+}
+
+.login.srch .fake-pop {
+    padding: 0;
+}
+
+.input>input[type='text'], .input>input[type='password'] {
+    padding: 12px 12px 12px 12px;
+}
+
+.input>input {
+    height: 30px;
+    line-height: 2;
+}
+
+
+.input>input, .textarea>textarea {
+    display: block;
+    width: 92%;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    margin: 0px 0;
+    background-image: none;
+    -webkit-appearance: none;
+    color: #333333;
+    border: #dddddd solid 1px;
+    resize: none;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    font-size: 1rem;
+}
+
+.login.srch .result {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 24rem;
+}
+
+
+element.style {
+    min-height: 652.042px;
+}
+.sett .container > .inr, .login.srch .container > .inr {
+    display: block;
+    min-width: 335px;
+    max-width: 335px;
+    height: auto;
+}
+
+.container>.inr {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}
+
+.input {
+    display: block;
+    vertical-align: middle;
+    position: relative;
+   
+}
+
+.login.srch .contents {
+    width: 335px;
+    margin: 0 auto;
+}
+
+.login .member-input.email.mt60 {
+    margin-top: 60px;
+}
+
+.login.srch .member-input .list > li {
+    margin-bottom: 14px;
+}
+
+
+.btnSet {
+    position: relative;
+    display: flex;
+    margin-left: -3.5px;
+    margin-right: -3.5px;
+    justify-content: center;
+}
+
+.btn.lg {
+    height: 50px;
+    min-width: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btnSet .btn {
+    width: 100%;
+    margin: 0 3.5px;
+}
+
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.btn.a {
+    border-color: #669aff;
+    background-color: #669aff;
+    color: #fff;
+}
+
+.btn {
+    border: 1px solid #dddddd;
+    background:  #76c2fc;
+    color: #ffffff;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+}
+

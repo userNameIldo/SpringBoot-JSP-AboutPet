@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+
+.gtc{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    font-size: 2rem;
+    font-weight: 700;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    color: #669aff;
+}
+
+.btn_off{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+    text-decoration: none;
+    height: 50px;
+    min-width: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #dddddd;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+}
+
+.btn_on{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    overflow: hidden;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+    text-decoration: none;
+    height: 50px;
+    min-width: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    border-color: #669aff;
+    background-color: #669aff;
+    color: #fff;
+    width: 100%;
+}
+
+.jungbok {
+	    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    font-size: 1rem;
+    color: #9a9a9a;
+    border-bottom: 1px solid #ecedef;
+    padding-bottom: 5px;
+}
+
+.chocon{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 60px;
+}
+
+
+.sm{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    font-size: 2rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.tag_btn{
+	    word-wrap: break-word;
+    word-break: keep-all;
+    -webkit-text-size-adjust: none;
+    outline: none !important;
+    max-height: 1000000px;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    background: none;
+    color: inherit;
+    font-size: 14px;
+    height: 34px;
+    line-height: 17px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    border-radius: 17px;
+    padding: 5px 13.5px 8px;
+    box-sizing: border-box;
+    margin: 0 10px 10px 0;
+}
+
+.tag_btn.active{
+	
+	background-color:#669aff;
+	color:white; 
+	
+}

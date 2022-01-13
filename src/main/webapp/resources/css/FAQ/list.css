@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{box-sizing: border-box; outline: none !important;}
+li {list-style: none;}
+a:link{text-decoration: none;}
+button {cursor: pointer; border: none; color: inherit; vertical-align: middle; background: none;}
+main .container{padding: 0px 20px 0px 20px; min-width: 1200px; min-height: 478px;}
+main .inr {max-width: 1200px; margin: 0 auto;  flex-wrap: nowrap; 
+         justify-content: space-between; height: 100%; width: 100%; min-width: 1200px;} 
+main .inr .contents{padding-bottom: 100px; overflow-x: hidden; width: 100%;}
+main .inr .pc-tit {margin: 40px 0; position: relative;}
+main .inr .pc-tit h2{font-size: 30px; font-weight: 700;}
+main .inr .top .input {color: #9a9a9a;}
+main .inr .top .input {width: 567px; position: relative;margin: 6px auto 30px;}
+main .input {display: block; vertical-align: middle;}
+main .inr .top .input > input {padding-right: 54px;}
+main .inr.input>input[type='text'], .input>input[type='password'] {padding: 12px 35px 12px 12px;}
+main .inr .input>input {height: 48px;line-height: 2;}
+main .inr .input>input{display: block; width: 100%; margin: 0px 0; background-image: none; -webkit-appearance: none;
+    color: #333333; border: #dddddd solid 1px; resize: none; vertical-align: middle; -webkit-border-radius: 4px;
+    font-size: 15px;}
+main .sect .btnDel { right: 54px; background: url("../../p_images/btn_input_cancel_grey@2x.png") no-repeat; background-size: 16px auto; 
+                width: 22px; height: 22px; position: absolute; top: 13px; font-size: 0; padding: 0;}
+main .sect .input button{appearance: auto; text-rendering: auto; word-spacing: normal; line-height: normal;
+    text-transform: none; text-indent: 0px; text-shadow: none; text-align: center; align-items: flex-start;}
+main .sect .input .btnfaq {font-size: 20px; font-weight: 700; position: absolute; right: 14px; top: 12px;
+                         color: #669aff; }
+main .sect .input .result {font-size: 13px; margin-bottom: 14px;}
+
+main .sect .menu {margin-bottom: 40px;}
+main .sect .mt15 {margin-top: 15px !important; }
+main .sect .menu ul{list-style: none;}
+main .uiTab.h {width: 100%; position: relative; text-align: center; background: #ffffff; display: flex;     
+    justify-content: start; padding: 0px 0px; flex-wrap: wrap; overflow: hidden; border-top: #ecedef solid 1px; 
+    border-left: #ecedef solid 1px; border-right: #ecedef solid 1px;}
+main .sect .menu .uiTab.h li{display: list-item;}
+main .uiTab.h>li {position: relative; width: calc(100% / 7); border: #ecedef solid 1px; border-width: 0px 1px 1px 0px;}
+main .menu .uiTab.h>li.active>.bt {color: #669aff;}
+main .uiTab.h>li.active>.bt {font-weight: 700;}
+main .uiTab.h>li>.bt { font-size: 14px; color: #666; display: inline-block; padding: 13px 4px 13px; font-weight: 400;
+    height: 46px; position: relative; width: 100%;}
+main .sect .flist .notilist{}
+main .sect .flist .notilist .nodata {display: flex; align-items: center; justify-content: center; height: calc(100vh - 600px);
+                flex-wrap: wrap; align-content: center; text-align: center; padding: 0; margin-top: 0; }
+main .sect .flist .notilist .txt{font-size: 15px; color: #333; font-weight: 700;}
+main .sect .flist p {display: block; margin-block-start: 1em; margin-block-end: 1em; margin-inline-start: 0px; margin-inline-end: 0px; }
+main .sect .flist .sm{display: block; margin-top: 20px; font-size: 13rem; font-weight: 400; color: #333;}
+main .flist .nodata .txt .sm > i { font-weight: 700; font-style: normal;}
+main .flist .uiAccd ul {border-bottom: 1px solid #ecedef; padding-bottom: 20px; list-style: none;}
+main .flist .uiAccd li {list-style: none; display: list-item; }
+main .flist .uiAccd .hBox {height: auto; min-height: 42px; position: relative; height: 60px; padding: 8px 0; line-height: 20px;
+        cursor: pointer;}
+main .flist .uiAccd .hBox .tit.no_ellipsis{max-width: 100%; font-weight: bold; min-height: 22px; padding: 0 18px 0 28px; white-space: normal;
+                        background: url("../../p_images/icon_list_qna_q@2x.png") no-repeat 0 2px; background-size: 20px 20px;}
+main .flist .uiAccd .hBox .tit {display: inline-block; line-height: 23px; font-size: 14px; color: #000; overflow: hidden; text-overflow: ellipsis;}
+main .flist .uiAccd .hBox .tit .blue{color: #669aff; font-weight: 700;}
+main .flist .uiAccd .hBox .btnTog {top:15px; transform: rotate(180deg); position: absolute; right: 0;
+    display: inline-block; width: 13px; height: 12px; text-indent: -9999px; 
+    background: url("../../p_images/icon_list_more_black@2x.png") no-repeat 0 0;
+    background-size: 13px 12px; z-index: -50;}
+main .flist .uiAccd .hBox .btnTog.active{}
+main .flist .uiAccd .cBox{padding: 0; min-height: auto; border-radius: 6px; overflow: hidden; background: #f7f7f7;}
+main .flist .uiAccd .cBox.active{}
+main .flist .uiAccd .uiMoreLoad{text-align: center; position: relative; margin-top: 21px;}
+main .flist .uiAccd  .uiMoreLoad.bt .more {
+    height: 32px; border: 1px solid #ecedef; border-radius: 40px; 
+    box-shadow: rgb(0 0 0 / 5%) 1px 1px 2px; font-size: 13px; color: #666666;
+    text-align: center; padding: 0px 15px 0px; position: relative; z-index: 10;
+    background: #ffffff; line-height: 1;}
+main .flist .uiAccd .uimoreload .bt.more::after {
+        width: 13px; height: 12px; 
+        background: url("../../p_images/icon_list_more_black@2x.png") no-repeat center;
+        margin-left: 2px; content: ""; display: inline-block;
+        vertical-align: middle; background-size: 13px; margin-top: -2px; margin-right: -5px;}
+main .flist dl {display: block; margin-block-start: 1em; margin-block-end: 1em;
+    margin-inline-start: 0px; margin-inline-end: 0px;}
+main .flist .guide dl dt {
+    font-size: 16px; color: #000; font-weight: 700; margin: 19px 0 9px 0; display: block;}
+main .flist .guide{width: 567px; margin: 0 auto;}
+main .flist .guide .box{display: table; width: 100%; position: relative; font-size: 13px;
+        color: #666; padding: 22px 115px 22px 22px; background: #f7f7f7; height: 106px;
+        border-radius: 4px 4px 30px 4px;}
+main .flist .guide .box .call{margin-bottom: 0; font-size: 22px; font-weight: 700;
+             color: #669aff;}
+main .flist .guide .box span {display: table-cell; vertical-align: middle;}
+main .flist .guide .btnSet{margin-top: 10px; position: relative; display: flex;
+    margin-left: -3.5px; margin-right: -3.5px; justify-content: center;}
+main .flist .guide .btnSet .btn{background: #fff; border: 1px solid #ddd; color: #000;
+    font-weight: 700; width: 100%; margin: 0 3.5px; overflow: hidden; display: inline-flex;
+    justify-content: center; align-items: center; vertical-align: middle; cursor: pointer;
+    white-space: nowrap; border-radius: 4px; line-height: 1;}
+main .flist .guide .btnSet .btn.lg{height: 50px; min-width: 50px; padding: 0 20px;
+        font-size: 15px; }

@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+
+.uiTab_content > div, .uiTab_content > ul {
+    position: static;
+    left: 0 !important;
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    font-size: 0;
+    vertical-align: top;
+}
+
+.cupon-wrap .my-cupon .cupon-list>li {
+  
+    border: 1px solid #ecedef;
+    border-radius: 10px 10px 40px 10px;
+    
+    padding: 15px 20px;
+    box-sizing: border-box;
+    margin: 0 10px 20px 0;
+}
+
+
+.cupon-wrap .my-cupon .cupon-list>li .sale {
+    font-size: 1.5rem;
+    color: #669aff;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+}
+
+.cupon-wrap .my-cupon .cupon-list>li .s-tit {
+    font-size: 1rem;
+    color: #669aff;
+    margin-top: 5px;
+}
+
+.cupon-wrap .my-cupon .cupon-list>li .tit {
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    height: 43px;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+.cupon-wrap .my-cupon .cupon-list>li .bottom-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+.cupon-wrap .my-cupon .cupon-list>li .bottom-item p + p {
+    margin-top: -3px;
+    height: 14px;
+}
+
+
+.uiTab.a {
+    position: relative;
+    height: 45px;
+    text-align: center;
+    background: #ffffff;
+    display: flex;
+    justify-content: start;
+    padding: 0px 0px;
+}
+
+
+body, select, input, textarea, button {
+    letter-spacing: -0.2px;
+    font-size: 1rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    vertical-align: middle;
+}
+
+
+
+.cupon-wrap .my-cupon .cupon-list>li .bottom-item .cupon::before {
+    display: inline-block;
+    content: '';
+    width: 1px;
+    height: 9px;
+    background-color: #ddd;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+
+.cupon-wrap .my-cupon .cupon-list>li .bottom-item .cupon {
+    display: inline-block;
+    height: 24px;
+    font-size: 1rem;
+    height: 24px;
+    color: #ff7777;
+}
+
+
+.cupon-wrap .my-cupon .cupon-list {
+    /* font-size: 0; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.uiTab.a>li.active>.bt {
+    color: #000000;
+    font-weight: 700;
+}
+
+
+
+
+

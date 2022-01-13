@@ -1,0 +1,178 @@
+@CHARSET "UTF-8";
+
+
+.pc-tit {
+    margin: 40px 0 20px;
+    margin: 40px 0;
+    position: relative;
+}
+
+.tabSwiper .swiper-pagination {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    display: flex;
+    bottom: unset;
+}
+
+
+.custmHelp .infoBox .btn_inquiry {
+    width: 100px;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.btn.b {
+    border-color: #669aff;
+    background-color: #fff;
+    color: #669aff;
+}
+
+
+
+.no_data.auto_h.view > .inr .msg {
+    color: #666;
+}
+
+.no_data .msg {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    line-height: 20px;
+}
+
+.no_data.i1 > .inr:before {
+    content: "";
+    display: block;
+    height: 100px;
+    margin: 0 0 12px;
+    background: url(../../resources/image/ghost.png) no-repeat center;
+    background-size: auto 100%;
+}
+
+
+.custmHelp .infoBox .btn_inquiry {
+    width: 100px;
+    font-size: 13px;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+
+
+.custmHelp .infoBox {
+    height: 32px;
+}
+.infoBox {
+    margin-top: 15px;
+    font-size: 14px;
+    align-items: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+
+/* 문의하기 */
+
+.Cinput_box {
+    height: 51px;
+    line-height: 52px;
+    display: block;
+    width: 329px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e6e6e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    border-color: rgb(206, 206, 206);
+    margin-bottom: 8px;
+}
+
+.uiqnaset>.set.memo .textarea textarea {
+    height: 300px;
+        width: fiexd;
+         width: 308px;
+}
+.textarea>textarea {
+    padding: 8px 10px 8px 10px;
+    height: 100px;
+}
+
+.uiqnaset>.set.gud {
+    border: #ecedef solid 1px;
+    border-width: 1px 0px 0px 0px;
+    padding: 10px 0px;
+}
+
+.uiqnaset>.set.gud .hdt .tit {
+    color: #666666;
+    font-weight: 700;
+}
+
+.my-accd .qalist>li .hBox {
+    position: relative;
+    padding: 10px 20px 10px 28px;
+}
+
+
+.my-accd .qalist>li .hBox::before {
+    width: 20px;
+    height: 20px;
+      background: url(../../resources/image/qna.png) no-repeat center;
+    background-size: 100% auto;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+
+.my-accd .qalist>li .hBox .tit {
+    color: #111111;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    line-height: 1rem;
+}
+
+
+.my-accd .qalist>li .hBox .info {
+    margin-top: 1px;
+    line-height: 1;
+    min-height: 15px;
+}
+
+
+.my-accd .qalist>li .hBox .info .dds {
+    font-size: 0.9rem;
+    color: #9a9a9a;
+    display: inline-block;
+    vertical-align: unset;
+    line-height: 1rem;
+}
+
+.my-accd .qalist>li .hBox .info .dds .dd.rep.com {
+    color: #669aff;
+}
+
+
+.uidropmu .menu>li>.bt {
+    display: block;
+    height: 38px;
+    padding: 8px 13px;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+
+
+
+

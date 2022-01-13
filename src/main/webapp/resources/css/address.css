@@ -1,0 +1,143 @@
+@CHARSET "UTF-8";
+
+.container>.inr {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}
+
+body, select, input, textarea, button {
+    letter-spacing: -0.2px;
+    
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    vertical-align: middle;
+}
+
+.pc-tit h2 {
+
+    font-weight: 700;
+}
+
+.uiDelisel>.delist>li:first-child {
+    padding-top: 0;
+}
+
+.uiDelisel>.delist>li {
+    border-bottom: 1px solid #ecedef;
+}
+
+.uiDelisel>.delist>li {
+    padding: 16px 0px 16px 0px;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+.uiDelisel>.delist>li .box.t2 .new_tit_area {
+    padding-left: 21px;
+    width: 120px;
+}
+
+.uiDelisel>.delist>li .box.t2 {
+    display: flex;
+    margin-top: 12px;
+}
+
+
+main.my .uiDelisel .new_tit_area.on {
+    color: #669aff;
+}
+
+
+.new_tit_area {
+    font-weight: 700;
+   
+    vertical-align: middle;
+    margin-top: -3px;
+}
+
+
+
+.pc-tit .add {
+    border-radius: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    right: 0;
+    top: calc(50% - 15px);
+}
+
+.btn {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #666666;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.container.lnb .contents {
+    margin-left: 190px;
+}
+
+
+.uiDelisel>.delist>li .box .inf .usrs {
+   
+    color: #666666;
+    margin-top: 8px;
+}
+
+.uidropmu .menu.bt {
+    display: block;
+    height: 38px;
+    padding: 8px 13px;
+    width: 100%;
+    text-align: left;
+}
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
+}
+
+.noneBoxPoint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: calc(100% - 105px);
+}
+
+
+element.style {
+    min-height: 655.347px;
+}
+.container.lnb .contents {
+    margin-left: 190px;
+}
+
+.container>.inr {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}

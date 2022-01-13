@@ -1,0 +1,370 @@
+@CHARSET "UTF-8";
+
+.pet-wrap {
+    padding: 0 20px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.pet-wrap .step-area .tit {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.pc-tit h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.pet-wrap .step-area .choice {
+    margin: 120px 0 205px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+body, select, input, textarea, button {
+    letter-spacing: -0.2px;
+   /*  font-size: 14rem; */
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    vertical-align: middle;
+}
+
+
+.pet-wrap .step-area .choice li {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.pet-wrap .step-area .choice li:before {
+    display: block;
+    content: '';
+    width: 120px;
+    height: 148px;
+    background: url(../../resources/image/dog.png) no-repeat center;
+    background-size: 100%;
+    margin: 0 auto 10px;
+}
+
+.pet-wrap .step-area .choice li + li:before {
+    display: block;
+    content: '';
+    width: 120px;
+    height: 148px;
+    background: url(../../resources/image/cat.png) no-repeat center;
+    background-size: 100%;
+    margin: 0 auto 10px;
+}
+
+
+
+.pet-wrap .step-area .choice ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.pet-wrap .pc-tit {
+    padding: 0;
+    text-align: center;
+}
+
+.btnSet .btn {
+    width: 100%;
+    margin: 0 3.5px;
+}
+
+
+.pet-wrap .btnSet {
+    display: flex;
+}
+
+.btnSet {
+    position: relative;
+    display: flex;
+    margin-left: -3.5px;
+    margin-right: 17.5px;
+    justify-content: center;
+}
+.pull .btn.lg.gray {
+    background-color: #dddddd;
+    color: #fff;
+    cursor: default;
+    width: 100%;
+}
+
+.btn.lg {
+    height: 50px;
+    min-width: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+.btn.d {
+    border-color: #ddd;
+    background-color: #fff;
+    color: #666;
+    font-weight: 700;
+    color: #000;
+      width: 79px;
+}
+
+.btn {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #666666;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+
+
+
+/* ----------------------여기서부터는 petprofile.jsp  */
+.pet-wrap {
+    padding: 0 20px;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    width: 375px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.pet-wrap .step-area .tit {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+
+.member-input .list li .tit {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    padding-right: 10px;
+    margin-bottom: 8px;
+}
+
+.member-input .list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.member-input .list li .info {
+    font-size: 0.7rem;
+   color: #669aff;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+/* .input>input[type='text'], .input>input[type='password'] {
+    padding: 12px 35px 12px 12px;
+} */
+.input>input {
+    height: 48px;
+    line-height: 2;
+}
+.input>input, .textarea>textarea {
+    display: block;
+    width: 100%;
+   /*  padding: 4px 10px 4px 10px; */
+    border-radius: 4px;
+    margin: 0px 0;
+    background-image: none;
+    -webkit-appearance: none;
+    color: #333333;
+    border: #dddddd solid 1px;
+    resize: none;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    /* box-shadow: inset 0 1px 2px rgb(27 31 35 / 8%); */
+    /* font-size: 15rem; */
+}
+
+.inputInfoTxt {
+    position: absolute;
+    top: calc(50% - 0px);
+    right: 10px;
+    font-size: 1rem;
+    color: #669aff;
+    font-weight: 700;
+}
+
+.member-input .list li .inputInfoTxt {
+    color: #000;
+}
+
+
+
+/* 사진  */
+
+.my-picture.medium2 {
+    width: 120px;
+    height: 120px;
+}
+
+
+.my-picture {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 25px;
+}
+
+.my-picture .btn.edit {
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: url(../../resources/image/camera.png) center no-repeat;
+    background-size: 40px 40px;
+    overflow: hidden;
+}
+
+
+.my-picture.animal .picture {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-image: url(../../resources/image/defaultimage.png) ;
+    background-size: 100% auto;
+}
+
+.pet-wrap .btnSet {
+    display: flex;
+}
+.btnSet {
+    position: relative;
+    display: flex;
+    margin-left: -3.5px;
+    margin-right: -3.5px;
+    justify-content: center;
+}
+
+/* 펫등록 2  */
+
+
+.pet-wrap .step-area .tit {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+}
+
+.pet-wrap .step-area .tit span {
+    color: #669aff;
+}
+
+
+
+.pet-wrap .sut-txt {
+    margin: 10px 0 54px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+
+.pet-wrap .member-input.t2 .list li:first-of-type {
+    border: 0;
+}
+.pet-wrap .member-input.t2 .list li {
+    border-top: 1px solid #ecedef;
+    padding: 25px 0 0px;
+}
+.member-input .list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+ .radiobox {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: -3px;
+    justify-content: space-around;
+      margin-bottom: 20px;
+} 
+
+.member-input .list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.Cinput_box {
+    height: 51px;
+    line-height: 52px;
+    display: block;
+    width: 329px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e6e6e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 6px;
+    border-color: rgb(206, 206, 206);
+    margin-bottom: 8px;
+}
+
+
+
+
+.member-input .list li .tit.requied:after {
+    display: block;
+    content: '*';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #669aff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* 성별 수정  */
+
+.member-input .list li .flex-rap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member-input .list li .flex-rap label {
+    width: 50%;
+}
+
+
+
+

@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/**
+ * Swiper 4.5.3
+ * Most modern mobile touch slider and framework with hardware accelerated transitions
+ * http://www.idangero.us/swiper/
+ *
+ * Copyright 2014-2019 Vladimir Kharlampidi
+ *
+ * Released under the MIT License
+ *
+ * Released on: October 16, 2019
+ */
+ .main1{
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    border: 0;
+    display: block;
+    max-height: 1000000px;
+    padding: 0;
+ }
+ .swiper-div1{
+ 
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    border: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow: hidden;
+    max-width: 100% !important;
+    padding: 0 !important;
+    background-color: #000;
+ }
+ .swiper-container swiper-container-initialized swiper-container-horizontal1{
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    box-sizing: border-box;
+    outline: none !important;
+    border: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    z-index: 1;
+    padding: 58px 0 72px;
+    margin: 0;
+ }
+ .swiper-slide swiper-slide-duplicate preve swiper-slide-duplicate-next1{
+ 
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    list-style: none;
+    flex-shrink: 0;
+    height: 100%;
+    transition-property: transform, -webkit-transform;
+    position: relative;
+    width: 838px;
+    margin: 0px 53px;
+    opacity: 0;
+ }
+ .contents {
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    width: 100%;
+ }
+ .swiper-wrapper1 {
+     word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform, -webkit-transform;
+    box-sizing: content-box;
+    transition-duration: 0ms;
+    transform: translate3d(-4542px, 0px, 0px);
+ }
+ .top-area1{
+     word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    color: #000;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: 14px;
+ }
+ .div-flex1{
+ 	    word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    color: #000;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    margin-bottom: 4px;
+ }
+ 
+ .video-title1{
+     -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    max-height: 1000000px;
+    flex: 1;
+    word-break: break-word;
+    word-wrap: break-word;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29rem;
+ }
+ .container page tv detail1{
+     word-wrap: break-word;
+    word-break: keep-all;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+    letter-spacing: -0.2px;
+    font-size: 14rem;
+    font-family: "Roboto", "Apple SD Gothic Neo", "NotoSansKR", "Malgun Gothic", "BaseLine", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol";
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+    outline: none !important;
+    margin: 0;
+    border: 0;
+    display: block;
+    max-height: 1000000px;
+    padding: 0px 20px 0px 20px;
+    min-width: 1200px;
+    min-height: 478px;
+    position: relative;
+    height: 100%;
+    color: #000;
+    padding-top: 40px;
+    padding-bottom: 80px;
+ }

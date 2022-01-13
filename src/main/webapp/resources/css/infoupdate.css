@@ -1,0 +1,311 @@
+@CHARSET "UTF-8";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, figcaption, figure, dialog, footer, header, hgroup, menu, main, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container>.inr {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}
+
+
+.container > .inr {
+    display: block;
+    min-width: 335px;
+    max-width: 335px;
+    height: auto;
+}
+
+
+.container {
+    padding: 0px 20px 0px 20px;
+    min-width: 1200px;
+    min-height: 478px;
+}
+
+
+.login.srch .contents {
+    width: 335px;
+    margin: 0 auto;
+}
+
+
+.pc-tit h2 {
+    font-weight: 700;
+}
+
+.sett .container > .inr .pc-tit, .login.srch .container > .inr .pc-tit {
+   /*  font-size: 30rem; */
+    padding: 0;
+    margin: 42px 0;
+    text-align: center;
+}
+
+
+
+.pc-tit {
+    /* margin: 40px 0 20px; */
+    margin: 40px 0;
+    position: relative;
+}
+
+
+.login.srch .fake-pop {
+    padding: 0;
+}
+
+
+.login .my-picture {
+    margin: 0 auto 40px;
+    width: 120px;
+    height: 120px;
+}
+
+.my-picture {
+    position: relative;
+    width: 72px;
+    height: 72px;
+    margin: 0 auto 25px;
+}
+
+
+.login .my-picture .picture {
+    position: relative;
+    background-size: 120px 120px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,.04);
+}
+
+.my-picture .picture {
+    width: 72px;
+    height: 72px;
+    border-radius: 36px;
+    background: url(../../resources/image/defaultimage.png) no-repeat center;
+    background-size: 72px 72px;
+    overflow: hidden;
+}
+.login .my-picture .btn.edit {
+    right: 0;
+}
+
+.my-picture .btn.edit {
+    position: absolute;
+    right: -20px;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: url(../../resources/image/camera.png) no-repeat center;
+    background-size: 40px 40px;
+    overflow: hidden;
+}
+
+.login.srch .member-input .list > li {
+    margin-bottom: 30px;
+}
+
+.member-input .list li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.member-input .list li .info {
+    font-size: 1rem;
+    color: #9a9a9a;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.member-input .list li .info:before {
+    display: inline-block;
+    content: '*';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #669aff;
+    vertical-align: middle;
+    padding-top: 4px;
+    margin-right: 4px;
+}
+
+.input {
+    display: block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.input>input[type='text'], .input>input[type='password'] {
+    padding: 12px 35px 12px 12px;
+}
+
+
+select[disabled], textarea[disabled], textarea[readonly], .input>input[readonly], .input>input[disabled] {
+    color: #959595;
+    background-color: rgba(221, 221, 221, 0.3);
+    border-color: #dddddd;
+    -webkit-text-fill-color: #9a9a9a;
+}
+
+
+.input>input, .textarea>textarea {
+    display: block;
+    width: 80%;
+    padding: 4px 10px 4px 10px;
+    border-radius: 4px;
+    margin: 0px 0;
+    background-image: none;
+    -webkit-appearance: none;
+    color: #333333;
+    border: #dddddd solid 1px;
+    resize: none;
+    outline: none;
+    vertical-align: middle;
+    -webkit-border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgb(27 31 35 / 8%);
+    font-size: 1rem;
+}
+
+
+.member-input .list li .tit {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    position: relative;
+    padding-right: 10px;
+    margin-bottom: 8px;
+}
+
+
+.pull .btn {
+    width: 95%;
+        height: 50px;
+  
+    min-width: 90px;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.btn.a {
+    border-color: #669aff;
+    background-color: #669aff;
+    color: #fff;
+}
+.btn.xl {
+    height: 60px;
+    min-width: 90px;
+    padding: 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+a:link {
+    text-decoration: none;
+}
+.btn {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #666666;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+
+.btn-area {
+    text-align: center;
+    margin: 30px 0 40px;
+    color: #7d7d7d;
+}
+
+
+.member-input .list li .tit.requied:after {
+    display: block;
+    content: '*';
+    font-size: 1rem;
+    font-weight: 700;
+    color: #669aff;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+ .pc-tit {
+    padding: 0;
+    margin: 42px 0;
+    text-align: center;
+}
+
+
+
+.login .my-picture .picture .thumb {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    width: 100%;
+    object-fit: cover;
+    max-width: inherit;
+    min-width: 100%;
+    height: 100%;
+}
+
+
+/* 회원탈퇴 조금 추가 */
+.mt20 {
+    margin-top: 16px !important;
+}
+
+
+.btnSet {
+    position: relative;
+    display: flex;
+    margin-left: -3.5px;
+    margin-right: -3.5px;
+    justify-content: center;
+}
+
+.mt24 {
+    margin-top: 24px !important;
+}
+
+.btnSet .btn {
+    width: 100%;
+    margin: 0 3.5px;
+}
+
+.btn.lg {
+    height: 50px;
+    min-width: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.sett .pbt .btn.base {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    font-weight: 700;
+}

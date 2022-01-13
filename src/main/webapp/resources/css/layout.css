@@ -1,0 +1,380 @@
+@CHARSET "UTF-8";
+
+nav.lnb.my .myCate .menu>li>.bt {
+    font-size: 1rem;
+    display: block;
+    padding: 3px 0;
+    position: relative;
+}
+
+a {
+    color: #000000;
+}
+
+nav.lnb>.inr {
+  /*   width: 160px; */
+    min-width: 150px;
+    position: fixed;
+    margin: 0 auto;
+    padding: 0px 0px 10px 0px;
+    /* left: 50%; */
+    margin-left: -600px;
+    top: 138px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: calc(100vh - 120px);
+}
+
+body {
+    word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+}
+
+
+/* 마이페이지 */
+
+.my.home .top {
+    padding-top: 42px;
+}
+
+.container>.inr {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+    flex-wrap: nowrap;
+	justify-content: space-between; 
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+}
+
+body {
+    word-wrap: break-word;
+    word-break: keep-all;
+    color: #000000;
+    line-height: 1.6;
+    -webkit-text-size-adjust: none;
+}
+
+
+.my.home .myinfo .my {
+    align-items: flex-start;
+    border-top: 0;
+}
+
+.my.home .myinfo dl {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    border-top: 1px solid #ecedef;
+    padding: 26px 0;
+}
+
+dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+ol, ul, li {
+    list-style: none;
+}
+
+.my.home .top .info-bx .nm {
+    display: block;
+/*     font-size: 18px; */
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 13px;
+    width: 240px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+}
+/* 
+ul {
+    display: block;
+    list-style-type: disc;
+
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+ */
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-end: 1em;
+    margin-inline-start: -39px;
+    margin-inline-end: 6px;
+    padding-inline-start: 40px;
+}
+
+
+.my.home .top .info-bx {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 210px);
+}
+
+.my.home .top .pic {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 23px 39px 0 70px;
+    overflow: hidden;
+}
+
+
+.my.home .top dl {
+    position: relative;
+    display: flex;
+    background: #f8f9fa;
+    border-radius: 6px;
+    height: 141px;
+}
+
+.my.home .myinfo .my .pet {
+    margin-bottom: 24px;
+}
+
+.my.home .myinfo .pet {
+    align-items: center;
+    position: relative;
+ 
+    color: #666;
+    padding: 21px 0;
+    background: #f7f7f7;
+    height: 99px;
+    border-radius: 6px 6px 30px 6px;
+}
+
+.my.home .myinfo .pet .ex {
+    text-align: center;
+
+    color: #333;
+}
+
+.my.home .myinfo .pet .add {
+    display: block;
+    position: relative;
+  /*   padding-left: 32px; */
+    margin: 7px auto;
+/*     font-size: 14rem; */
+    color: #000;
+    border-radius: 16px;
+  /*   width: 133px; */
+    height: 32px;
+    border: 1px solid #fff;
+}
+
+.my.home .myinfo .my .img-set {
+    position: relative;
+    padding-top: 14px;
+    text-align: center;
+}
+
+/* 
+.my.home .myinfo dl > dt {
+    width: 217px;
+    font-size: 18rem;
+    color: #000;
+    font-weight: 700;
+} */
+
+
+.my.home .myinfo .my .img-set > li {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.my.home .myinfo .my .btn.re {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* .my.home .btn.re {
+    display: block;
+    width: 84px;
+    height: 30px;
+    font-size: 13rem;
+    color: #000;
+} */
+
+
+.btn {
+    border: 1px solid #dddddd;
+    background: #ffffff;
+    color: #666666;
+    height: 32px;
+    overflow: hidden;
+    padding: 0 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 4px;
+    line-height: 1;
+}
+
+.my.home .myinfo .zzim-list {
+    display: flex;
+    border-radius: 6px;
+    background: #f8f9fa;
+    height: 69px;
+}
+
+.my.home .myinfo .zzim-list li > a {
+    display: block;
+    font-weight: 700;
+    color: #669aff;
+    
+}
+
+
+.my.home .myinfo .zzim-list li {
+    position: relative;
+    padding: 13px 0;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    background: #f8f9fa;
+    height: 69px;
+}
+
+
+.my.home .myinfo .shop .coupon {
+    display: flex;
+    /* padding: 0 200px; */
+/*     margin-bottom: 31px; */
+    margin-top: 18px;
+}
+
+
+.my.home .myinfo .shop .coupon li > a{
+    width: 30px;
+    /* background: url(../../_images/my/icon_my_mycoupon@2x.png) no-repeat 50% 0; */
+    background-size: 30px 20px;
+}
+
+
+.my.home .myinfo .shop .coupon li > a > span {
+    font-size: 0.8rem;
+    color: #273957;
+   
+    left: 0;
+    bottom: 6px;
+    width: 100%;
+    text-align: center;
+}
+
+.my.home .myinfo .shop .coupon li {
+    flex: 1;
+    text-align: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+.my.home .myinfo .shop .coupon li > a {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+}
+
+
+.my.home .myinfo .shop .bar .fas fa-angle-right {
+    right: 14px;
+}
+
+
+.my.home .myinfo .shop .bar {
+    flex: 1;
+    margin-right: 9px;
+}
+
+
+.my.home .myinfo .fas fa-angle-right {
+    position: absolute;
+    display: inline-block;
+    font-size: 0;
+    top: 50%;
+    right: 0;
+    width: 20px;
+    height: 20px;
+  
+    background-size: 100%;
+    transform: translate(0, -50%);
+}
+
+.my.home .myinfo .shop .bar .tit {
+    position: relative;
+    width: calc(100% - 24px);
+    display: inline-block;
+    font-size: 1rem;
+    color: #000;
+}
+
+.my.home .myinfo .shop .barwrap {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.my.home .myinfo .shop .bar li {
+    position: relative;
+    margin-top: 8px;
+    padding: 0 12px 0 17px;
+    line-height: 46px;
+    border-radius: 6px;
+    background: #f7f7f7;
+}
+
+
+.my.home .myinfo dl > dd {
+    width: calc(100% - 217px);
+}
+
+.my.home .myinfo .shop {
+    padding-top: 26px;
+    align-items: flex-start;
+}
+
+
+
+
+.my.home .myinfo .fas fa-angle-double-right {
+    top: 30px;
+    width: auto;
+    padding-right: 20px;
+    height: 25px;
+    background-position: 100% 50%;
+     background: url(../../_images/my/icon_my_cart@2x.png) no-repeat 50% 0;
+    background-size: 20px 20px;
+    vertical-align: middle;
+} 
